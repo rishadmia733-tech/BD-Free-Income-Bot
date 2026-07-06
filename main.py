@@ -25,7 +25,7 @@ async def admin(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "👤 যোগাযোগ করুন: @RISHAD_Vai12"
     )
 
-app = Application.builder().token("YOUR_BOT_TOKEN").build()
+app = Application.builder().token(8867303195:AAGRDEHRUwpHRxGipnnGbZ2o_hBxJ7eh5LM).build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("stars", stars))
